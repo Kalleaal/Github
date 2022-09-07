@@ -1,6 +1,9 @@
 #include <iostream>
 #include <stdlib.h>
 #include <string>
+#include <random>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main()
@@ -12,9 +15,9 @@ int main()
 	
 		// Arvojen asettelu
 	
-		srand(time(NULL));
+	srand(time(0));
 
-		int kVastaus = 0, valitutKierrokset = 0, kierrokset = 0, pelaajanpisteet = 0, tietokoneenpisteet = 0, muuttuvaNumero = rand() % 3 + 1;
+	int kVastaus = 0, valitutKierrokset = 1, pelaajanpisteet = 0, tietokoneenpisteet = 0 ;
 		
 		string Vastaus, Voittaja = "Olet voittaja!", Häviäjä = "Tietokone voitti!", Tasapeli = "Tasapeli!";
 
@@ -25,12 +28,16 @@ int main()
 		cout << "Ensin valitse kierrosten lukumäärä.\n";
 		cout << "Seuraavaksi voit syöttää, pelivälineen!\n";
 		cout << "Valitse: Kivi , Sakset tai Paperi\n";
-		cout << "Onnea peliin!\n";
+		cout << "Onnea peliin!\n\n";
 		cout << "Syötä haluamasi kierrosmäärä : ";
 		cin >> valitutKierrokset;
+		
+		cin.ignore();
+		
+		int  kierrokset = 1 ;
 
 	while(kierrokset <= valitutKierrokset) {
-
+		int muuttuvaNumero = (rand() % 3) + 1;
 		for (;;) {
 				cin.clear();
 				cout << "Kivi, Paperi vai Sakset?";
@@ -60,16 +67,19 @@ int main()
 		if (muuttuvaNumero == 1) {
 			if (kVastaus == 1) {
 				cout << Tasapeli;
+				cout << "\n";
 				kierrokset++;
 			}
 
 			else if (kVastaus == 2) {
 				cout << Voittaja;
+				cout << "\n";
 				pelaajanpisteet++;
 				kierrokset++;
 			}
 			else if (kVastaus == 3) {
 				cout << Häviäjä;
+				cout << "\n";
 				kierrokset++;
 			}
 
@@ -78,17 +88,21 @@ int main()
 		if (muuttuvaNumero == 2) {
 			if (kVastaus == 1) {
 				cout << Häviäjä;
+				cout << "\n";
 				kierrokset++;
 			}
 
 			else if (kVastaus == 2) {
 				cout << Tasapeli;
+				cout << "\n";
 				kierrokset++;
 			}
 
 			else if (kVastaus == 3) {
 				cout << Voittaja;
+				cout << "\n";
 				pelaajanpisteet++;
+				cout << "\n";
 				kierrokset++;
 			}
 
@@ -97,23 +111,27 @@ int main()
 		if (muuttuvaNumero == 3) {
 			if (kVastaus == 1) {
 				cout << Voittaja;
+				cout << "\n";
 				pelaajanpisteet++;
+				cout << "\n";
 				kierrokset++;
 			}
 
 			else if (kVastaus == 2) {
 				cout << Häviäjä;
+				cout << "\n";
 				kierrokset++;
 			}
 
 			else if (kVastaus == 3) {
 				cout << Tasapeli;
+				cout << "\n";
 				kierrokset++;
 			}
 
 		} // Jos tietokone valitsee paperin.
-
+		cout << "Pelatut kierrokset:" << kierrokset << "\n";
+		cout << "Pisteesi:" << pelaajanpisteet << "\n";
 	}
-	cout << "Pelatut kierrokset:" << kierrokset << "\n";
-	cout << "Pisteesi:" << pelaajanpisteet << "\n";
+	
 }
