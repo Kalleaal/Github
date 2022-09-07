@@ -23,7 +23,7 @@ int main()
 
 		
 		
-		// Kivisakset paperi peli esittely
+		// Kivisakset paperi peli esittelyy
 		cout << "Terrrrvetuloa KSP peliin!\nKoita voittaa tietokone!\n\n";
 		cout << "Ensin valitse kierrosten lukumäärä.\n";
 		cout << "Seuraavaksi voit syöttää, pelivälineen!\n";
