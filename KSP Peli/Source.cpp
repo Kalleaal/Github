@@ -41,7 +41,7 @@ int main()
 		int muuttuvaNumero = (rand() % 3) + 1;
 		for (;;) {
 				cin.clear();
-				cout << "Kivi, Paperi vai Sakset?";
+				cout << "Kivi, Paperi vai Sakset?" << "\n";
 				getline(cin, Vastaus);
 
 				if (!Vastaus.compare("Sakset") || !Vastaus.compare("sakset")) {
@@ -81,6 +81,7 @@ int main()
 			else if (kVastaus == 3) {
 				cout << Häviäjä;
 				cout << "\n";
+				tietokoneenpisteet++;
 				kierrokset++;
 			}
 
@@ -91,6 +92,7 @@ int main()
 				cout << Häviäjä;
 				cout << "\n";
 				kierrokset++;
+				tietokoneenpisteet++;
 			}
 
 			else if (kVastaus == 2) {
@@ -120,19 +122,21 @@ int main()
 
 			else if (kVastaus == 2) {
 				cout << Häviäjä;
-				cout << "\n";
+				cout << "\n\n";
 				kierrokset++;
+				tietokoneenpisteet++;
 			}
 
 			else if (kVastaus == 3) {
 				cout << Tasapeli;
-				cout << "\n";
+				cout << "\n\n";
 				kierrokset++;
 			}
 
 		} // Jos tietokone valitsee paperin.
-		cout << "Pelatut kierrokset:" << kierrokset << "\n";
-		cout << "Pisteesi:" << pelaajanpisteet << "\n";
+		cout << "Pelatut kierrokset:" << kierrokset << "\n\n";
+		cout << "Pisteesi:" << pelaajanpisteet << "\n\n";
+		cout << "Tietokoneen pisteet:" << tietokoneenpisteet;
 	}
 	
 }
