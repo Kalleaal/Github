@@ -17,7 +17,7 @@ int main()
 	
 	srand(time(0));
 
-	int kVastaus = 0, valitutKierrokset = 1, pelaajanpisteet = 0, tietokoneenpisteet = 0 ;
+	int kVastaus = 0, valitutKierrokset = 0, pelaajanpisteet = 0, tietokoneenpisteet = 0 ;
 		
 		string Vastaus, Voittaja = "Olet voittaja!", Häviäjä = "Tietokone voitti!", Tasapeli = "Tasapeli!";
 
@@ -34,9 +34,10 @@ int main()
 		
 		cin.ignore();
 		
-		int  kierrokset = 1 ;
+		int  kierrokset = 0
+;
 
-	while(kierrokset <= valitutKierrokset) {
+	while(kierrokset < valitutKierrokset) {
 		int muuttuvaNumero = (rand() % 3) + 1;
 		for (;;) {
 				cin.clear();
