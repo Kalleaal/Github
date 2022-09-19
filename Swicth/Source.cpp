@@ -37,5 +37,6 @@ int main()
 	case 7:
 		cout << "7. Päivä on Sunnuntai";
 		break;
-
+	default :
+		cout << "Syötä 1-7"
 	}

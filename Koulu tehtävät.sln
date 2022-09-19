@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KSP Peli", "KSP Peli\KSP Pe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swicth", "Swicth\Swicth.vcxproj", "{FEF222E5-5584-43D7-B6B9-101A5365500D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kertotaulun kysely", "Kertotaulun kysely\Kertotaulun kysely.vcxproj", "{609048CB-7C4E-4AC1-94C5-D113D3167D02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{FEF222E5-5584-43D7-B6B9-101A5365500D}.Release|x64.Build.0 = Release|x64
 		{FEF222E5-5584-43D7-B6B9-101A5365500D}.Release|x86.ActiveCfg = Release|Win32
 		{FEF222E5-5584-43D7-B6B9-101A5365500D}.Release|x86.Build.0 = Release|Win32
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Debug|x64.ActiveCfg = Debug|x64
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Debug|x64.Build.0 = Debug|x64
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Debug|x86.ActiveCfg = Debug|Win32
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Debug|x86.Build.0 = Debug|Win32
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Release|x64.ActiveCfg = Release|x64
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Release|x64.Build.0 = Release|x64
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Release|x86.ActiveCfg = Release|Win32
+		{609048CB-7C4E-4AC1-94C5-D113D3167D02}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

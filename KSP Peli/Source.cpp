@@ -41,7 +41,7 @@ int main()
 		int muuttuvaNumero = (rand() % 3) + 1;
 		for (;;) {
 				cin.clear();
-				cout << "Kivi, Paperi vai Sakset?" << "\n";
+				cout << "\n\nKivi, Paperi vai Sakset?" << "\n";
 				getline(cin, Vastaus);
 
 				if (!Vastaus.compare("Sakset") || !Vastaus.compare("sakset")) {
@@ -67,70 +67,82 @@ int main()
 
 		if (muuttuvaNumero == 1) {
 			if (kVastaus == 1) {
-				cout << Tasapeli;
+				cout << "\n\n" << Tasapeli;
 				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 			}
 
 			else if (kVastaus == 2) {
-				cout << Voittaja;
+				cout << "\n\n" << Voittaja;
 				cout << "\n";
 				pelaajanpisteet++;
+				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 			}
 			else if (kVastaus == 3) {
-				cout << Häviäjä;
+				cout << "\n\n" << Häviäjä;
 				cout << "\n";
 				tietokoneenpisteet++;
+				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 			}
 
 		} // Tulos jos tietokone vastaa sakset.
 
 		if (muuttuvaNumero == 2) {
 			if (kVastaus == 1) {
-				cout << Häviäjä;
+				cout << "\n\n" << Häviäjä;
 				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 				tietokoneenpisteet++;
+				cout << "\n";
 			}
 
 			else if (kVastaus == 2) {
-				cout << Tasapeli;
+				cout << "\n\n" << Tasapeli;
 				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 			}
 
 			else if (kVastaus == 3) {
-				cout << Voittaja;
+				cout << "\n\n" << Voittaja;
 				cout << "\n";
 				pelaajanpisteet++;
 				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 			}
 
 		} // Jos tietokone valitsee kiven.
 
 		if (muuttuvaNumero == 3) {
 			if (kVastaus == 1) {
-				cout << Voittaja;
+				cout << "\n\n" << Voittaja;
 				cout << "\n";
 				pelaajanpisteet++;
 				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 			}
 
 			else if (kVastaus == 2) {
-				cout << Häviäjä;
-				cout << "\n\n";
+				cout << "\n\n" << Häviäjä;
+				cout << "\n";
 				kierrokset++;
 				tietokoneenpisteet++;
+				cout << "\n";
 			}
 
 			else if (kVastaus == 3) {
-				cout << Tasapeli;
-				cout << "\n\n";
+				cout << "\n\n" << Tasapeli;
+				cout << "\n";
 				kierrokset++;
+				cout << "\n";
 			}
 
 		} // Jos tietokone valitsee paperin.
