@@ -8,11 +8,14 @@ using namespace std;
 
 int main()
 {
+
 	setlocale(LC_ALL, "");
 
 	// Monesko
-
 	int päivä, mPäivä;
+
+	cout << "Syötä viikon päivän järjestys numero.\n";
+	cin >> mPäivä;
 
 	switch (mPäivä)
 	{
@@ -37,6 +40,8 @@ int main()
 	case 7:
 		cout << "7. Päivä on Sunnuntai";
 		break;
-	default :
-		cout << "Syötä 1-7"
+	default:
+		cout << "Syötä 1-7";
 	}
+	
+}
