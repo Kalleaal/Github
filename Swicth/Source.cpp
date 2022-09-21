@@ -44,4 +44,4 @@ int main()
 		cout << "Syötä 1-7";
 	}
 	
-}
+} // Test
