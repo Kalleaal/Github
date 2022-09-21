@@ -4,6 +4,7 @@
 #include <random>
 #include <cstdlib>
 #include <ctime>
+#include <math.h>
 using namespace std;
 
 int main() {
@@ -11,22 +12,35 @@ int main() {
 
 	// Kertotaulun kysely ohjelma.
 
-	string v1, v2, v3, v4, v5, v6, v7, v8, v9, v10;
-	int kertoja=1, oikeatVastaukset=0;
+	
+	int  kertoT = 0, vastaus = 0,  oikeatVastaukset=0, luku1=0;
 
-	cout << "Tervetulo kertaamaan kertotauluja! \n Valitse mitä kerto taulua väliltä 1 - 10 haluat kerrata!?\n\n";
+	cout << "Tervetulo kertaamaan kertotauluja! \n Valitse mitä kertotaulua väliltä 1 - 10 haluat kerrata!?\n\n";
 
-	do {
+	cin >> kertoT;
 
-		cout << "\nSyötä kertotaulun valinta lukuna 1 - 10\n";
-		cin >> kertoja;
+	do 
+	{
+	
+
+		cout << "Laske:" << luku1 << "*" << kertoT << "\n";
+		cin >> vastaus;
+	
+
 		
-	} while (kertoja > 1 || kertoja < 10);
-
-	cout << "Paljonko on" << kertoja * 1;
-	cin >> v1;
+		if (vastaus = kertoT*luku1) {
+				oikeatVastaukset++;
+		}
 		
+		luku1++;
+	
+	
+	
+	
+	} while (luku1 <= 10 && luku1 > 0) ;
 
+		
+	cout << "Sait kertotaulusta oikeita vastauksia:\n" << oikeatVastaukset;
 
 
 
