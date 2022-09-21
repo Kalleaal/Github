@@ -13,7 +13,7 @@ int main() {
 	// Kertotaulun kysely ohjelma.
 
 	
-	int  kertoT = 0, vastaus = 0,  oikeatVastaukset=0, luku1=0;
+	int  kertoT = 0, vastaus = 0,  oikeatVastaukset=0, luku1=1;
 
 	cout << "Tervetulo kertaamaan kertotauluja! \n Valitse mitä kertotaulua väliltä 1 - 10 haluat kerrata!?\n\n";
 
@@ -28,7 +28,7 @@ int main() {
 	
 
 		
-		if (vastaus = kertoT*luku1) {
+		if (vastaus == kertoT*luku1) {
 				oikeatVastaukset++;
 		}
 		
