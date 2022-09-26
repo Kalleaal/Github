@@ -20,8 +20,11 @@ int main() {
 	}
 
 	//tulostetaan taulukon sisältö
-	for (int = i; i < 6; i+2) //korjaa!
-
+	for (int i = 0; i < 6 ; i=i+2) //korjaa!
+	{
+		cout << luvut[i] << "\n";
+		
+	}
 
 
 
