@@ -25,6 +25,19 @@ int main()
 		cout << ":";
 		cin >> days[i];
 		summa += days[i];
+	/* If lauseella voidaan kysy‰ kaikki p‰iv‰t erikseen
+	halutessa ja lopuksi summa pit‰‰ muuttaa jokaisen muisti 
+	lokeron erikseen olevaksi yhteen laskuksi
+	
+	esim. if (i==1)
+		{cout << "maanantai\n";
+		cin >> days[1]]
+		}
+	
+		summa = days[1]+ days[2].... Ect.
+		*/
+	
+	
 	}
 
 	viikonkeskiarvo = summa / 7 ;
