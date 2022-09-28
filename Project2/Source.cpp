@@ -25,7 +25,8 @@ int main()
 		cout << ":";
 		cin >> days[i];
 		summa += days[i];
-	/* If lauseella voidaan kysy‰ kaikki p‰iv‰t erikseen
+	
+		/* If lauseella voidaan kysy‰ kaikki p‰iv‰t erikseen
 	halutessa ja lopuksi summa pit‰‰ muuttaa jokaisen muisti 
 	lokeron erikseen olevaksi yhteen laskuksi
 	

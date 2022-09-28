@@ -10,7 +10,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "");
 
-	int luvut[6]{ 0 };
+	int luvut[6]={ 0 };
 
 	for (int i = 0; i < 6; i++) 
 	{
