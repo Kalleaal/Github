@@ -24,6 +24,7 @@
     <ProjectGuid>{8c76e5ab-a161-46c0-a649-e9a6be1b69ea}</ProjectGuid>
     <RootNamespace>Lämpötilamuunnin</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Lämpötila muunnin (Valmis)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

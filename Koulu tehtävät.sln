@@ -15,7 +15,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kertotaulun kysely", "Kerto
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Taulukko", "Project1\Project1.vcxproj", "{CF61FB2C-F794-40EC-9468-E7F8AB575865}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project2", "Project2\Project2.vcxproj", "{55C5A565-8278-4A67-B56F-FEE9AE2A7529}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Viikon tuntien laskenta", "Project2\Project2.vcxproj", "{55C5A565-8278-4A67-B56F-FEE9AE2A7529}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3", "Project3\Project3.vcxproj", "{8522E96A-EA39-4F52-9090-055FE25AA1E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{55C5A565-8278-4A67-B56F-FEE9AE2A7529}.Release|x64.Build.0 = Release|x64
 		{55C5A565-8278-4A67-B56F-FEE9AE2A7529}.Release|x86.ActiveCfg = Release|Win32
 		{55C5A565-8278-4A67-B56F-FEE9AE2A7529}.Release|x86.Build.0 = Release|Win32
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Debug|x64.ActiveCfg = Debug|x64
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Debug|x64.Build.0 = Debug|x64
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Debug|x86.Build.0 = Debug|Win32
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Release|x64.ActiveCfg = Release|x64
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Release|x64.Build.0 = Release|x64
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Release|x86.ActiveCfg = Release|Win32
+		{8522E96A-EA39-4F52-9090-055FE25AA1E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

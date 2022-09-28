@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-
+	setlocale(LC_ALL, "");
 	double aNum, tulos;
 
 
@@ -16,16 +16,16 @@ int main() {
 
 
 	if (aNum >= 0) {
-		cout << aNum <<" On suurempi kuin nolla.\n"
+		cout << aNum << " On suurempi kuin nolla.\n";
 	}
 
 	if (aNum <= 0) {
-		cout << aNum << " On pienempi kuin nolla.\n"
+		cout << aNum << " On pienempi kuin nolla.\n";
 	}
 
 	if (aNum == 0) {
-		cout << "Luku on nolla!\n"
+		cout << "Luku on nolla!\n";
 	}
 
-	return 0
+	return 0;
 }
