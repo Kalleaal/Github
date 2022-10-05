@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{357382fd-8914-4521-bcdd-2d75b8e2fdd2}</ProjectGuid>
-    <RootNamespace>Aliohjelmat</RootNamespace>
+    <ProjectGuid>{6132265d-681a-464f-8f0e-e474a841bebb}</ProjectGuid>
+    <RootNamespace>Keskiarvoaliohjelmalaskuri</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Alennuslaskuri</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
