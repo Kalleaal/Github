@@ -12,17 +12,24 @@ int taulukonsuodatus(int taulukko[], int etsittava);
 
 int main()
 {
+	setlocale(LC_ALL, "");
 
 	int taulukko[] = { 1,4,3,54,5,6,56,8,9 },etsittava;
+	char muuttuja='k';
 
-	cout << "Syota etsittava numero: ";
-	cin >> etsittava;
-	int kertaa = taulukonsuodatus(taulukko, etsittava);
-	cout << etsittava << " Esiintyy taulukossa: " << kertaa << "kertaa.";
+	while (muuttuja == 'k' || muuttuja == 'K')
+	{
+		cout << "Syota etsittava numero: ";
+		cin >> etsittava;
+		int kertaa = taulukonsuodatus(taulukko, etsittava);
+		cout << etsittava << " Esiintyy taulukossa: " << kertaa << " kertaa.";
 
 
-
-
+		cout << "\n\nHaluatko etsiä uudestaan? vastaa K tai E: ";
+		cin >> muuttuja;
+		
+	} 
+	
 }
 
 int taulukonsuodatus(int taulukko[], int etsittava) {
