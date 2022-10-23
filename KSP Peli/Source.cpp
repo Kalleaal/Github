@@ -6,9 +6,14 @@
 #include <ctime>
 using namespace std;
 
+void Menu();
+
+
 int main()
 {
 	setlocale(LC_ALL, "");
+
+	Menu();
 
 		/*Tässä harjoitustyössä yritän saada tehtyä KSP pelin tietokonetta vastaan.
 		peli päättyy kun valittu kierrosmäärä täyttyy. Ja peli kertoo tuloksen ja palaa alkuun.*/
@@ -149,6 +154,30 @@ int main()
 		cout << "Pelatut kierrokset:" << kierrokset << "\n\n";
 		cout << "Pisteesi:" << pelaajanpisteet << "\n\n";
 		cout << "Tietokoneen pisteet:" << tietokoneenpisteet;
-	}
+	} Menu();
 	
+}
+
+void Menu ()
+{
+int valinta;
+do
+{
+	cout << "\n\nKSP  v0.76 MENU\n\n0. Pelaa\n1. Kreditointi\n2. Lopeta\n";
+	cin >> valinta;
+	switch (valinta) {
+
+	case 0:
+		cout << "Peli alkaa!\n";
+		break;
+	case 1:
+		cout << "\nTämän pelin on tehnyt TTV2022SP Luokan Kalle Aaltonen\n";
+		break;
+	case 2:
+		cout << "\nKiitos kun pelasit! Näkemiin!\n";
+		exit (0);
+	}
+
+} while (valinta != 0);
+
 }
