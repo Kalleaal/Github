@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "koe testi", "koe testi\koe 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Oliot", "Oliot\Oliot.vcxproj", "{06DD4B44-C373-4D5E-A056-B993892CCA7F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kauppa Hinturi", "Kauppa Hinturi\Kauppa Hinturi.vcxproj", "{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +223,18 @@ Global
 		{06DD4B44-C373-4D5E-A056-B993892CCA7F}.Release|x64.Build.0 = Release|x64
 		{06DD4B44-C373-4D5E-A056-B993892CCA7F}.Release|x86.ActiveCfg = Release|Win32
 		{06DD4B44-C373-4D5E-A056-B993892CCA7F}.Release|x86.Build.0 = Release|Win32
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Debug|Any CPU.Build.0 = Debug|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Debug|x64.ActiveCfg = Debug|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Debug|x64.Build.0 = Debug|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Debug|x86.ActiveCfg = Debug|Win32
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Debug|x86.Build.0 = Debug|Win32
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|Any CPU.ActiveCfg = Release|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|Any CPU.Build.0 = Release|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|x64.ActiveCfg = Release|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|x64.Build.0 = Release|x64
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|x86.ActiveCfg = Release|Win32
+		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
