@@ -10,9 +10,6 @@ public:
 	// Destruktori
 	~Tuote(void);
 	void tulosta();
-	int getId() { return id; }
-	void Alelaskuri(float alepros);
-	float haehinta() { return hinta; };
 
 private:
 	string nimi;

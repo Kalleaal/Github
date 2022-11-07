@@ -20,7 +20,6 @@ int main()
 	Tuote t9("Jauhenliha", 6, 6);
 
 
-	t1.Alelaskuri(30);
 
 	t1.tulosta();
 	t2.tulosta();

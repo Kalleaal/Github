@@ -22,9 +22,7 @@ void Tuote::tulosta()
 	std::cout << "Hinta:  " << hinta << " Euroa\n\n";
 }
 
-void Tuote::Alelaskuri(float alepros)
 {
-	hinta -= (hinta / 100) * alepros;
 	
 
 
