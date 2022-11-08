@@ -19,7 +19,7 @@ public:
 
 private:
 	string nimi;
-	int id;
+	int id = 0;
 	float saldo = 0;
 	float luottoraja = 0;
 

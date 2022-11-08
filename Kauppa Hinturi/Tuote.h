@@ -13,8 +13,8 @@ public:
 	void tulosta();
 	void alennettu(float alepros);
 	int getid() { return id; };
-	float haehinta() { return hinta; };
-	void asetaHinta(float h);
+	float haehinta();
+	
 
 private:
 	string nimi;

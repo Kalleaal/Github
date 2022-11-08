@@ -26,39 +26,51 @@ void Kauppa::aloitaOhjelma()
 	int valinta;
 	do
 	{
-		cout << "Teretulemast miu shoppii! Valitseha sie toiminto :\n";
+		cout << "Teretulemast miu shoppii! Valitseha sie toiminto\n";
 		cout << "(1) Tulostahan kaikki. \n";
-		cout << "(2) Vaihdahan tuottehen hintaa \n";
+		cout << "(2) Alennethaan tuotteen hintaa\n";
 		cout << "(3) Lissää uus tuote\n";
 		cout << "(0) Loppuh\n";
 		cin >> valinta;
 
-	} while (valinta != 0);
-
-	switch (valinta)
-	{
-	case 1:
-		tulostaTuotteet();
-		break;
-
-	case 2:
-		
-		break;
-
-	case 3:
-		
-		break;
-
-	case 0:
 	
-		break;
+
+		switch (valinta)
+		{
+			case 1:
+			tulostaTuotteet();
+			break;
+
+			case 2:
+			laskeAlennus();
+			break;
+
+			case 3:
+			lisaaTuote();
+			break;
+
+			case 0:
+				break;
 		
-	}
+		}
 
-
+	} while (valinta != 0);
 }
 
+void Kauppa::lisaaTuote()
+{
+	string nimi;
+	float hinta;
+	int id;
 
+	cout << "Annaha tuottehen nimi > ";
+	cin >> nimi;
+	cout << "Sulla on varmaan tuothel hintha? > ";
+	cin >> hinta;
+	cout << "ID varmaa löytyy? > ";
+	cin >> id;
+
+}
 	
 	
 	void Kauppa::tulostaTuotteet()
@@ -82,9 +94,9 @@ void Kauppa::aloitaOhjelma()
 		int id;
 		double alepros;
 
-		cout << "Annahan tuote luokan ID";
+		cout << "Annahan tuote luokan ID  ";
 		cin >> id;
-		cout << "Annahan tuothe luokan alennusprosennti";
+		cout << "Annahan tuothe luokan alennusprosennti  ";
 		cin >> alepros;
 
 		int koko = tuotteet.size();

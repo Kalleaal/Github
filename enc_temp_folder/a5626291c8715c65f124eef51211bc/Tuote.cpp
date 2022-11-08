@@ -32,7 +32,7 @@ void Tuote::asetaHinta(float h)
 
 void Tuote::tulosta()
 {
-	std::cout << "Nimi:" << nimi << std::endl;
+	std::cout << "Nimi:       " << nimi << std::endl;
 	std::cout << "ID Tunnus: " << id << std::endl;
 	std::cout << "Hinta:  " << hinta << " Euroa\n\n";
 }

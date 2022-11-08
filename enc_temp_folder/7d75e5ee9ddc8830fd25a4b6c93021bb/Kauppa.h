@@ -30,8 +30,8 @@ public:
 
 private:
 	string nimi;
-	string osoite;
-	vector<Tuote> tuotteet; //tätä ei tarvitse alustaa
+		string osoite;
+		vector<Tuote> tuotteet; //tätä ei tarvitse alustaa
 
 		
 
