@@ -9,7 +9,12 @@ public:
 	Tuote(string n, int k, float s);
 	// Destruktori
 	~Tuote(void);
+	void asetaHinta(float h);
 	void tulosta();
+	void alennettu(float alepros);
+	int getid() { return id; };
+	float haehinta() { return hinta; };
+	void asetaHinta(float h);
 
 private:
 	string nimi;

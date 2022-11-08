@@ -42,15 +42,17 @@ void Kauppa::aloitaOhjelma()
 		break;
 
 	case 2:
+		
 		break;
 
 	case 3:
+		
 		break;
 
 	case 0:
+	
 		break;
-
-
+		
 	}
 
 
@@ -89,9 +91,9 @@ void Kauppa::aloitaOhjelma()
 
 		for (int i = 0; i < koko; i++)
 		{
-			if(tuotteet.at(i).getId() == id)
+			if(tuotteet.at(i).getid() == id)
 			{
-				tuotteet.at(i).Alelaskuri(alepros);
+				tuotteet.at(i).alennettu(alepros);
 			}
 
 		}

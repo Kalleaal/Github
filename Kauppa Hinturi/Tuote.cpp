@@ -15,6 +15,21 @@ Tuote::~Tuote(void)
 {
 }
 
+float Tuote::haehinta()
+{
+	return hinta;
+}
+
+void Tuote::asetaHinta(float h)
+{
+	if (h > 0)
+	{
+		hinta = h;
+	}
+}
+
+
+
 void Tuote::tulosta()
 {
 	std::cout << "Nimi:       " << nimi << std::endl;
@@ -22,9 +37,8 @@ void Tuote::tulosta()
 	std::cout << "Hinta:  " << hinta << " Euroa\n\n";
 }
 
+void Tuote::alennettu(float alepros)
 {
-	
-
-
-
+	hinta -= (hinta / 100) * alepros;
 }
+
