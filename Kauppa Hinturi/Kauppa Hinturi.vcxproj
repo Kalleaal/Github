@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Asiakastili.h" />
+    <ClInclude Include="KallenMadot.h" />
     <ClInclude Include="Kauppa.h" />
     <ClInclude Include="Tuote.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="asiakastili.cpp" />
+    <ClCompile Include="KallenMadot.cpp" />
     <ClCompile Include="Kauppa.cpp" />
     <ClCompile Include="Paaohjelma.cpp" />
     <ClCompile Include="Tuote.cpp" />

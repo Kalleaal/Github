@@ -24,6 +24,9 @@
     <ClInclude Include="Kauppa.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="KallenMadot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tuote.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Kauppa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KallenMadot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

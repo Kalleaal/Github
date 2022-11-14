@@ -6,7 +6,7 @@ class Tuote
 {
 public:
 	// Konstruktori
-	Tuote(string n, int k, float s);
+	Tuote(string x, int y, float z);
 	// Destruktori
 	~Tuote(void);
 	void asetaHinta(float h);
@@ -14,9 +14,13 @@ public:
 	void alennettu(float alepros);
 	int getid() { return id; };
 	float haehinta();
+	Tuote(string n);
+	Tuote();
+	Tuote(const Tuote &tuote);
+	
 	
 
-private:
+protected:
 	string nimi;
 	int id;
 	float hinta;
