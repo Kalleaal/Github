@@ -1,8 +1,39 @@
 #include "KallenMadot.h"
+using namespace std;
+
+KallenMadotdotcom::KallenMadotdotcom(string x, int y, float z, int kpl, string syotti_, string vari_)
+	: Tuote(x,y,z)
+{
+	maara = kpl;
+	syotti = syotti_;
+	vari = vari_;
+}
+
+KallenMadotdotcom::~KallenMadotdotcom(void)
+{
+}
+
+void KallenMadotdotcom::tulosta()
+{
+	Tuote::tulosta();
 
 
-string nimi;
-float hinta;
-int id;
+}
 
-tuote(string x, float h, int i);
+Matohoukuttimet::Matohoukuttimet(string x, int y, float z, string merkki_, string malli_, float colorRGB) 
+	: Tuote(x,y,z)
+{
+	merkki = merkki_;
+	malli = malli_;
+	vari = colorRGB;
+
+}
+
+void Matohoukuttimet::tulosta()
+{
+	Tuote::tulosta();
+
+	cout << "Merkki: " << merkki << endl;
+	cout << "Malli: " << malli << endl;
+	cout << "vari  " << vari << " Euroa\n\n";
+}

@@ -10,7 +10,7 @@ public:
 	// Destruktori
 	~Tuote(void);
 	void asetaHinta(float h);
-	void tulosta();
+	virtual void tulosta();
 	void alennettu(float alepros);
 	int getid() { return id; };
 	float haehinta();
