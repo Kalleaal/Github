@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Oliot", "Oliot\Oliot.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kauppa Hinturi", "Kauppa Hinturi\Kauppa Hinturi.vcxproj", "{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Osoitintehtävät", "Osoitintehtävät\Osoitintehtävät.vcxproj", "{01FF8F77-6AD3-4522-9B28-018B815E0D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,18 @@ Global
 		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|x64.Build.0 = Release|x64
 		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|x86.ActiveCfg = Release|Win32
 		{EFAE226B-2AFF-44A4-8C11-16B00C9D41E7}.Release|x86.Build.0 = Release|Win32
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Debug|Any CPU.Build.0 = Debug|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Debug|x64.ActiveCfg = Debug|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Debug|x64.Build.0 = Debug|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Debug|x86.ActiveCfg = Debug|Win32
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Debug|x86.Build.0 = Debug|Win32
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Release|Any CPU.ActiveCfg = Release|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Release|Any CPU.Build.0 = Release|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Release|x64.ActiveCfg = Release|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Release|x64.Build.0 = Release|x64
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Release|x86.ActiveCfg = Release|Win32
+		{01FF8F77-6AD3-4522-9B28-018B815E0D23}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

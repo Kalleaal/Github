@@ -1,3 +1,4 @@
+#include <iostream>
 #include "KallenMadot.h"
 using namespace std;
 
@@ -33,7 +34,7 @@ void Matohoukuttimet::tulosta()
 {
 	Tuote::tulosta();
 
-	cout << "Merkki: " << merkki << endl;
-	cout << "Malli: " << malli << endl;
+	cout << "Merkki: " << merkki << "\n";
+	cout << "Malli: " << malli << "\n";
 	cout << "vari  " << vari << " Euroa\n\n";
 }

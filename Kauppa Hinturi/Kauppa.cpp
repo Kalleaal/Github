@@ -9,10 +9,10 @@ Kauppa::Kauppa(string nimi_, string osoite_)
 	nimi = nimi_;
 	osoite = osoite_;
 
-	Tuote t1("Banaani", 1, 0.50);
-	Tuote t2("Kumipallo", 13, 1);
-	Tuote t3("Galja", 3, 5);
-	Tuote t4("Keissi", 3, 19);
+	Tuote *t1 = new Tuote("Banaani", 1, 0.50);
+	Tuote *t2 = new Tuote("Kumipallo", 13, 1);
+	Tuote *t3 = new Tuote("Galja", 3, 5);
+	Tuote *t4 = new Tuote("Keissi", 3, 19);
 
 	tuotteet.push_back(t1);
 	tuotteet.push_back(t2);
@@ -62,14 +62,17 @@ void Kauppa::lisaaTuote()
 	string nimi;
 	float hinta;
 	int id;
-
+	
+	cin.ignore();
 	cout << "Annaha tuottehen nimi > ";
-	cin >> nimi;
+	getline(cin, nimi);
 	cout << "Sulla on varmaan tuothel hintha? > ";
 	cin >> hinta;
 	cout << "ID varmaa löytyy? > ";
 	cin >> id;
 
+	Tuote* lisattavatuote = new Tuote(nimi, hinta, id);
+	tuotteet.push_back(lisattavatuote);
 }
 	
 	
@@ -82,7 +85,7 @@ void Kauppa::lisaaTuote()
 
 		for (int i = 0; i < koko; i++)
 		{
-			tuotteet[i].tulosta();
+			tuotteet[i]->tulosta();
 		}
 
 
@@ -103,9 +106,9 @@ void Kauppa::lisaaTuote()
 
 		for (int i = 0; i < koko; i++)
 		{
-			if(tuotteet.at(i).getid() == id)
+			if(tuotteet.at(i)->getid() == id)
 			{
-				tuotteet.at(i).alennettu(alepros);
+				tuotteet.at(i)->alennettu(alepros);
 			}
 
 		}

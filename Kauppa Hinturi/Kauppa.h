@@ -31,7 +31,7 @@ public:
 private:
 	string nimi;
 	string osoite;
-	vector<Tuote> tuotteet; //tätä ei tarvitse alustaa
+	vector<Tuote*> tuotteet; //tätä ei tarvitse alustaa
 
 		
 
