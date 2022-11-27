@@ -113,14 +113,16 @@ void OstosLista::luetiedosto()
 			getline(myFile, nimi);
 		getline(myFile, kpl);
 
-		Ostos* uusiostos = new Ostos(nimi, atoi(kpl.c_str()));
-		Ostokset.push_back(uusiostos);
+		Ostos* lisaaOstos = new Ostos(nimi, atoi(kpl.c_str()));
+		Ostokset.push_back(lisaaOstos);
 	}
 
 }
 
 void OstosLista::tyhjennä()
 {
+
+
 }
 
 OstosLista::~OstosLista(void)
