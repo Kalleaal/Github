@@ -79,6 +79,10 @@ void OstosLista::kirjoitatiedostoon()
 
 }
 
+void OstosLista::luetiedosto()
+{
+}
+
 OstosLista::~OstosLista(void)
 {
 

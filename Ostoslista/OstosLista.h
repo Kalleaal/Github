@@ -13,11 +13,13 @@ class OstosLista
 public:
 	void aloitaOhjelma();
 
-	void lisaaOstos();
+	void lisaaOstos(); //lis‰‰uusi
 
-	void listaaOstokset();
+	void listaaOstokset(); //Tulosta
 
 	void kirjoitatiedostoon();
+
+	void luetiedosto();
 
 	~OstosLista(void);
 
