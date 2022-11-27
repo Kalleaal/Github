@@ -11,13 +11,13 @@ Ostos::~Ostos(void)
 {
 }
 
-int Ostos::haekpl()
-{
-	return Kpl;
-}
-
-string Ostos::haenimi()
-{
-	return Nimi;
-}
-
+//int Ostos::haekpl()
+//{
+//	
+//}
+//
+//string Ostos::haenimi()
+//{
+//	
+//}
+//
