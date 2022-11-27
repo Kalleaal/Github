@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Ostos.h"
 #include <fstream>
+#include <Windows.h>
 using namespace std;
 
 
@@ -67,14 +68,11 @@ void OstosLista::lisaaOstos()
 
 void OstosLista::listaaOstokset()
 {
-	int koko = Ostokset.size();
-
-	cout << "--------------------------------\n";
-	cout << "Listallasi olevat tuotteet:\n";
-
-	for (int i = 0; i < koko; i++)
+	cout << "Ostoslistalla on tällä hetkellä:" << endl;
+	for (int i = 0; i < Ostokset.size(); i++)
 	{
 		Ostokset[i]->tulosta();
+
 	}
 
 
@@ -121,7 +119,9 @@ void OstosLista::luetiedosto()
 
 void OstosLista::tyhjennä()
 {
-
+	ofstream myFile(Lista, ofstream::trunc);
+	myFile.close();
+	Ostokset.clear();
 
 }
 
