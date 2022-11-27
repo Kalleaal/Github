@@ -11,6 +11,7 @@ using namespace std;
 class OstosLista
 {
 public:
+	OstosLista(string tiedosto);
 	void aloitaOhjelma();
 
 	void lisaaOstos(); //lis‰‰uusi
@@ -27,6 +28,7 @@ public:
 
 protected:
 	vector<Ostos*>Ostokset;
+	string Lista = "Lista.txt";
 
 
 };

@@ -6,6 +6,13 @@
 using namespace std;
 
 
+OstosLista::OstosLista(string tiedosto)
+{
+	Lista = tiedosto;
+	luetiedosto();
+
+}
+
 void OstosLista::aloitaOhjelma()
 {
 	int valinta;
@@ -49,6 +56,8 @@ void OstosLista::aloitaOhjelma()
 
 	} while (valinta != 0);
 }
+
+
 
 void OstosLista::lisaaOstos()
 {
