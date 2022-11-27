@@ -30,16 +30,23 @@ void OstosLista::aloitaOhjelma()
 			break;
 
 		case 3:
-			
+			tyhjennä();
 			break;
 
 		case 0:
-			break;
+			kirjoitatiedostoon();
 
 		}
 
-	} while (valinta != 0);
+		if (valinta != 0)
+		{
+			cout << "Paina anykey jatkaaksesi." << "\n";
+			cin.ignore();
+			cin.get();
+			system("cls");
+		}
 
+	} while (valinta != 0);
 }
 
 void OstosLista::lisaaOstos()
@@ -75,11 +82,44 @@ void OstosLista::listaaOstokset()
 
 void OstosLista::kirjoitatiedostoon()
 {
-
+	ofstream myFile(Lista, fstream::trunc );
+	if (myFile)
+	{
+		for (int i = 0; i < Ostokset.size(); i++)
+		{
+			myFile << Ostokset[i]->haenimi() << "\n";
+			myFile << Ostokset[i]->haekpl() << "\n";
+		}
+		myFile.close();
+	}
+	else
+	{
+		cout << "Virhe tiedoston avaamisessa!" << endl;
+	}
 
 }
 
 void OstosLista::luetiedosto()
+{
+	string nimi;
+	string kpl;
+
+	ifstream myFile;
+	myFile.open(Lista);
+
+	if (myFile)
+	{
+		while (myFile.peek() != EOF)
+			getline(myFile, nimi);
+		getline(myFile, kpl);
+
+		Ostos* uusiostos = new Ostos(nimi, atoi(kpl.c_str()));
+		Ostokset.push_back(uusiostos);
+	}
+
+}
+
+void OstosLista::tyhjennä()
 {
 }
 

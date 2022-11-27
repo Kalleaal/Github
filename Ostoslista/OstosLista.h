@@ -21,6 +21,8 @@ public:
 
 	void luetiedosto();
 
+	void tyhjennä();
+
 	~OstosLista(void);
 
 protected:
