@@ -18,12 +18,30 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="Yhteystietokirja.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sposti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Osoite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PuhelinNumero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h">
+    <ClInclude Include="Yhteystietokirja.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sposti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Osoite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PuhelinNumero.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

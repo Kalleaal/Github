@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a701b914-7e2e-4524-8b0e-f39be8e2cce5}</ProjectGuid>
-    <RootNamespace>koetesti</RootNamespace>
+    <ProjectGuid>{a4c770cf-1d0b-4e74-9b78-83d250b2e287}</ProjectGuid>
+    <RootNamespace>Theprojekt</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Osoite.cpp" />
+    <ClCompile Include="PuhelinNumero.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Sposti.cpp" />
+    <ClCompile Include="Yhteystietokirja.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h" />
+    <ClInclude Include="Osoite.h" />
+    <ClInclude Include="PuhelinNumero.h" />
+    <ClInclude Include="Sposti.h" />
+    <ClInclude Include="Yhteystietokirja.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

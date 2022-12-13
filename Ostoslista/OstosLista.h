@@ -26,6 +26,7 @@ public:
 
 	~OstosLista(void);
 
+
 protected:
 	vector<Ostos*>Ostokset;
 	string Lista = "Lista.txt";

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a701b914-7e2e-4524-8b0e-f39be8e2cce5}</ProjectGuid>
-    <RootNamespace>koetesti</RootNamespace>
+    <ProjectGuid>{e4d08a5d-3d0c-4ffc-8337-ed7b55944844}</ProjectGuid>
+    <RootNamespace>Oliokoe</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Henkilo.cpp" />
+    <ClCompile Include="Opettaja.cpp" />
+    <ClCompile Include="Opiskelija.cpp" />
+    <ClCompile Include="paaohjelma.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h" />
+    <ClInclude Include="Henkilo.h" />
+    <ClInclude Include="Opettaja.h" />
+    <ClInclude Include="Opiskelija.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

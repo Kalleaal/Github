@@ -15,15 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Henkilo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="Opiskelija.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Opettaja.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paaohjelma.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test.h">
+    <ClInclude Include="Henkilo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opiskelija.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opettaja.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
